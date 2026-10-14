@@ -1,0 +1,21 @@
+.about {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  text-align: left;
+  border: 1px solid #aaa;
+  border-radius: 12px;
+}
+
+.about h1 {
+  margin: 0;
+}
+
+.about h2 {
+  margin: 4px 0;
+  font-weight: normal;
+}
+
+.study {
+  color: #888;
+}
