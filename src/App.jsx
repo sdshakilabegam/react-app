@@ -1,27 +1,25 @@
 import "./App.css";
+import Greeting from "./components/Greeting";
+import InfoBox from "./components/InfoBox";
+import Badge from "./components/Badge";
 
 function App() {
-  const name = "Shakila Begam S.D.";
-  const role = "Electronics & Communication Engineer";
-  const study = "M.Tech in AI & Data Science";
-  const intro =
-    "I am learning web development as an intern at Sree Kavinya Technologies. This is my first React app, built with Vite.";
-
   return (
     <div className="about">
-      <h1>{name}</h1>
-      <h2>{role}</h2>
-      <p className="study">{study}</p>
+      <Greeting name="Shakila" place="my React app" />
 
-      <h3>About Me</h3>
-      <p>{intro}</p>
+      <InfoBox title="Role" text="Electronics & Communication Engineer" />
+      <InfoBox title="Studying" text="M.Tech in AI & Data Science" />
+      <InfoBox
+        title="Internship"
+        text="Web development at Sree Kavinya Technologies"
+      />
 
-      <h3>What I am learning</h3>
-      <ul>
-        <li>HTML, CSS and JavaScript</li>
-        <li>Git and GitHub</li>
-        <li>React with Vite</li>
-      </ul>
+      <h3>Skills</h3>
+      <Badge label="HTML" color="#e34f26" />
+      <Badge label="CSS" color="#1572b6" />
+      <Badge label="JavaScript" color="#b8860b" />
+      <Badge label="React" color="#0a7ea4" />
     </div>
   );
 }

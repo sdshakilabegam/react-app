@@ -19,3 +19,28 @@
 .study {
   color: #888;
 }
+
+.info-box {
+  border-left: 4px solid #646cff;
+  background: rgba(100, 108, 255, 0.1);
+  padding: 8px 14px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+.info-box h4 {
+  margin: 0 0 4px;
+}
+
+.info-box p {
+  margin: 0;
+}
+
+.badge {
+  display: inline-block;
+  color: white;
+  padding: 4px 12px;
+  margin: 4px 6px 4px 0;
+  border-radius: 999px;
+  font-size: 14px;
+}
