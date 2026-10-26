@@ -53,3 +53,20 @@
   margin: 4px 0;
   padding-left: 20px;
 }
+.counter-box,
+.toggle {
+  margin-top: 20px;
+  border-top: 1px solid #aaa;
+  padding-top: 10px;
+}
+.count {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+.counter-box button,
+.toggle button {
+  margin-right: 8px;
+  padding: 6px 14px;
+  cursor: pointer;
+}

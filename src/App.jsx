@@ -2,6 +2,8 @@ import "./App.css";
 import Greeting from "./components/Greeting";
 import InfoBox from "./components/InfoBox";
 import AboutMe from "./components/AboutMe";
+import Counter from "./components/Counter";
+import ShowHide from "./components/ShowHide";
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
       />
 
       <AboutMe name="Shakila" role="Web development intern" />
+
+      <Counter />
+      <ShowHide />
     </div>
   );
 }
