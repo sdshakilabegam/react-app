@@ -4,6 +4,7 @@ import InfoBox from "./components/InfoBox";
 import AboutMe from "./components/AboutMe";
 import Counter from "./components/Counter";
 import ShowHide from "./components/ShowHide";
+import ProjectList from "./components/ProjectList";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 
       <Counter />
       <ShowHide />
+      <ProjectList />
     </div>
   );
 }
