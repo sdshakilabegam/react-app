@@ -5,6 +5,7 @@ import AboutMe from "./components/AboutMe";
 import Counter from "./components/Counter";
 import ShowHide from "./components/ShowHide";
 import ProjectList from "./components/ProjectList";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Counter />
       <ShowHide />
       <ProjectList />
+      <ContactForm />
     </div>
   );
 }

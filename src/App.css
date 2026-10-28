@@ -101,3 +101,47 @@
 .status-progress {
   background: #b8860b;
 }
+.form-box {
+  margin-top: 20px;
+  border-top: 1px solid #aaa;
+  padding-top: 10px;
+}
+.form-field {
+  margin: 12px 0;
+}
+.form-field label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 10px;
+  border: 1px solid #888;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  font-size: 15px;
+}
+.error-text {
+  color: #e57373;
+  font-size: 13px;
+  margin: 4px 0 0;
+}
+.form-box button {
+  padding: 8px 18px;
+  cursor: pointer;
+}
+.submitted-box {
+  margin-top: 16px;
+  border-left: 4px solid #2e7d32;
+  background: rgba(46, 125, 50, 0.12);
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+.submitted-box p {
+  margin: 4px 0;
+}
