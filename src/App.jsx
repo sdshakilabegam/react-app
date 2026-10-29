@@ -6,6 +6,7 @@ import Counter from "./components/Counter";
 import ShowHide from "./components/ShowHide";
 import ProjectList from "./components/ProjectList";
 import ContactForm from "./components/ContactForm";
+import UserList from "./components/UserList";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <ShowHide />
       <ProjectList />
       <ContactForm />
+      <UserList />
     </div>
   );
 }

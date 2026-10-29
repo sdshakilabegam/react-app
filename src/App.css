@@ -145,3 +145,26 @@
 .submitted-box p {
   margin: 4px 0;
 }
+.user-box {
+  margin-top: 20px;
+  border-top: 1px solid #aaa;
+  padding-top: 10px;
+}
+.user-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0;
+}
+.user-box li {
+  margin: 10px 0;
+  padding: 8px 12px;
+  border-left: 4px solid #646cff;
+  background: rgba(100, 108, 255, 0.1);
+  border-radius: 6px;
+}
+.user-detail {
+  display: block;
+  font-size: 14px;
+  opacity: 0.8;
+  margin-top: 2px;
+}
